@@ -19,7 +19,7 @@ The MP2494 uses a **current-mode control architecture**:
 
 ![Datasheet Diagram_1](https://github.com/mustafaeminadak/MP2494-DC-DC-Converter/blob/main/Hardware/Project_MP2494/Images/MP2494_Datasheet_1.png)
 ##
-![Datasheet Diagram_2](https://github.com/mustafaeminadak/MP2494-DC-DC-Converter/blob/main/Hardware/Project_MP2494/Images/MP2494_Datasheet_1.png)
+![Datasheet Diagram_2](https://github.com/mustafaeminadak/MP2494-DC-DC-Converter/blob/main/Hardware/Project_MP2494/Images/MP2494_Datasheet_2.png)
 
 ## ⚙️ Specifications
 
