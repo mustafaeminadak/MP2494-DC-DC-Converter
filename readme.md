@@ -17,9 +17,9 @@ The MP2494 uses a **current-mode control architecture**:
 - When the sensed current exceeds the control threshold, the switch is turned off.  
 - A Schottky diode carries inductor current during the off cycle.  
 
-![Datasheet Diagram_1](https://raw.githubusercontent.com/mustafaeminadak/MP2494-DC-DC-Converter/main/MP2494-DC-DC-Converter/Hardware/Project_MP2494/Images/MP2494_Datasheet_1.png)
+![Datasheet Diagram_1](https://github.com/mustafaeminadak/MP2494-DC-DC-Converter/blob/main/Hardware/Project_MP2494/Images/MP2494_Datasheet_1.png)
 ##
-![Datasheet Diagram_2](https://raw.githubusercontent.com/mustafaeminadak/MP2494-DC-DC-Converter/main/MP2494-DC-DC-Converter/Hardware/Project_MP2494/Images/MP2494_Datasheet_2.png)
+![Datasheet Diagram_2](https://github.com/mustafaeminadak/MP2494-DC-DC-Converter/blob/main/Hardware/Project_MP2494/Images/MP2494_Datasheet_1.png)
 
 ## ⚙️ Specifications
 
@@ -34,7 +34,7 @@ The MP2494 uses a **current-mode control architecture**:
 * Efficiency (measured): **~85.55%**
 
 # MPS Design Tool Simulation
-![Specifications](https://raw.githubusercontent.com/mustafaeminadak/MP2494-DC-DC-Converter/main/MP2494-DC-DC-Converter/Hardware/Project_MP2494/Images/MPS-DCDC-Designer-MP2494.png)
+![Specifications](https://github.com/mustafaeminadak/MP2494-DC-DC-Converter/blob/main/Hardware/Project_MP2494/Images/MPS-DCDC-Designer-MP2494.png)
 
 ## 🛠️ Design Considerations
 
@@ -52,30 +52,30 @@ Additional Notes:
 * Edge plating is not required for all boards but can help in high-current, EMI-sensitive designs.
 * The EN pin can be tied to VIN (always-on) or controlled via a resistor divider (optional R7).
 
-![Layout Considerations_1](https://raw.githubusercontent.com/mustafaeminadak/MP2494-DC-DC-Converter/main/MP2494-DC-DC-Converter/Hardware/Project_MP2494/Images/Layout_Consideration_1.png)
+![Layout Considerations_1](https://github.com/mustafaeminadak/MP2494-DC-DC-Converter/blob/main/Hardware/Project_MP2494/Images/Layout_Consideration_1.png)
 ##
-![Layout Considerations_2](https://raw.githubusercontent.com/mustafaeminadak/MP2494-DC-DC-Converter/main/MP2494-DC-DC-Converter/Hardware/Project_MP2494/Images/Layout_Consideration_2.png)
+![Layout Considerations_2](https://github.com/mustafaeminadak/MP2494-DC-DC-Converter/blob/main/Hardware/Project_MP2494/Images/Layout_Consideration_2.png)
 ##
-![Layout Considerations_3](https://raw.githubusercontent.com/mustafaeminadak/MP2494-DC-DC-Converter/main/MP2494-DC-DC-Converter/Hardware/Project_MP2494/Images/Layout_Consideration_3.png)
+![Layout Considerations_3](https://github.com/mustafaeminadak/MP2494-DC-DC-Converter/blob/main/Hardware/Project_MP2494/Images/Layout_Consideration_3.png)
 
 
 ## 📐 Schematic
 
-![Schematic](https://raw.githubusercontent.com/mustafaeminadak/MP2494-DC-DC-Converter/main/MP2494-DC-DC-Converter/Hardware/Project_MP2494/Images/Schematic.png)
+![Schematic](https://github.com/mustafaeminadak/MP2494-DC-DC-Converter/blob/main/Hardware/Project_MP2494/Images/Schematic.png)
 
 ## 🧩 Layout
 
-![Layout_1](https://raw.githubusercontent.com/mustafaeminadak/MP2494-DC-DC-Converter/main/MP2494-DC-DC-Converter/Hardware/Project_MP2494/Images/Layout_1.png)
+![Layout_1](https://github.com/mustafaeminadak/MP2494-DC-DC-Converter/blob/main/Hardware/Project_MP2494/Images/Layout_1.png)
 ##
-![Layout_2](https://raw.githubusercontent.com/mustafaeminadak/MP2494-DC-DC-Converter/main/MP2494-DC-DC-Converter/Hardware/Project_MP2494/Images/Layout_Top.png)
+![Layout_2](https://github.com/mustafaeminadak/MP2494-DC-DC-Converter/blob/main/Hardware/Project_MP2494/Images/Layout_Top.png)
 ##
-![Layout_3](https://raw.githubusercontent.com/mustafaeminadak/MP2494-DC-DC-Converter/main/MP2494-DC-DC-Converter/Hardware/Project_MP2494/Images/Layout_Bottom.png)
+![Layout_3](https://github.com/mustafaeminadak/MP2494-DC-DC-Converter/blob/main/Hardware/Project_MP2494/Images/Layout_Bottom.png)
 
 ## 🎨 3D View
 
-![3D_View_1](https://raw.githubusercontent.com/mustafaeminadak/MP2494-DC-DC-Converter/main/MP2494-DC-DC-Converter/Hardware/Project_MP2494/Images/Project_MP2494_3D_1.png)
+![3D_View_1](https://github.com/mustafaeminadak/MP2494-DC-DC-Converter/blob/main/Hardware/Project_MP2494/Images/Project_MP2494_3D_1.png)
 ##
-![3D_View_2](https://raw.githubusercontent.com/mustafaeminadak/MP2494-DC-DC-Converter/main/MP2494-DC-DC-Converter/Hardware/Project_MP2494/Images/Project_MP2494_3D_2.png)
+![3D_View_2](https://github.com/mustafaeminadak/MP2494-DC-DC-Converter/blob/main/Hardware/Project_MP2494/Images/Project_MP2494_3D_2.png)
 
 ## 📌 Notes
 
@@ -95,9 +95,9 @@ For interactive inspection of the Gerber layers, you can use **PCBWay Online Ger
 
 Simply click the button above and upload the provided Gerber `.zip` file to view all PCB layers online.
 
-![Gerber View_1](https://raw.githubusercontent.com/mustafaeminadak/MP2494-DC-DC-Converter/main/MP2494-DC-DC-Converter/Hardware/Project_MP2494/Images/GerberView_1.png)
+![Gerber View_1](https://github.com/mustafaeminadak/MP2494-DC-DC-Converter/blob/main/Hardware/Project_MP2494/Images/GerberView_1.png)
 ##
-![Gerber View_1](https://raw.githubusercontent.com/mustafaeminadak/MP2494-DC-DC-Converter/main/MP2494-DC-DC-Converter/Hardware/Project_MP2494/Images/GerberView_2.png)
+![Gerber View_1](https://github.com/mustafaeminadak/MP2494-DC-DC-Converter/blob/main/Hardware/Project_MP2494/Images/GerberView_2.png)
 
 ## 📜 License 
 This project is released under the MIT License.
