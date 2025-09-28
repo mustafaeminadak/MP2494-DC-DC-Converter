@@ -1,0 +1,639 @@
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+	(symbol "connector_pwr_in"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 2.286 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 31 63 1)
+				)
+			)
+		)
+		(property "Value" "Conn_Male"
+			(at 2.286 -8.89 0)
+			(effects
+				(font
+					(size 1 1)
+					(color 0 31 63 1)
+				)
+			)
+		)
+		(property "Footprint" "0_connectors:AMASS_XT60PW-M"
+			(at 6.35 -23.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://octopart.com/datasheet/xt60pw-m-amass-118051292"
+			(at 6.35 -21.336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Male Yellow - Plug ROHS"
+			(at 6.35 -18.542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "XT60PW-M"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "connector_pwr_in_0_1"
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 1.016 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 31 63 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -5.08) (xy 1.016 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 31 63 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.048 -2.54) (xy 3.556 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 31 63 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.048 -5.08) (xy 3.556 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 31 63 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.302 -2.286) (xy 3.302 -2.794)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 31 63 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "connector_pwr_in_1_1"
+			(rectangle
+				(start 0 0)
+				(end 4.445 -7.62)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 31 63 1)
+				)
+				(fill
+					(type color)
+					(color 221 221 221 1)
+				)
+			)
+			(rectangle
+				(start 1.016 -2.3114)
+				(end 2.1336 -2.794)
+				(stroke
+					(width 0.1524)
+					(type default)
+					(color 0 31 63 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 1.016 -4.826)
+				(end 2.1336 -5.334)
+				(stroke
+					(width 0.1524)
+					(type default)
+					(color 0 31 63 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -5.08 0)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "connector_pwr_out"
+		(pin_numbers
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 2.032 3.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 31 63 1)
+				)
+			)
+		)
+		(property "Value" "Conn_USB_TypeC_PWR"
+			(at 9.652 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 31 63 1)
+				)
+			)
+		)
+		(property "Footprint" "0_connectors:2171750001_MOL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/2171750001"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN RCP USB2.0 C 6POS SMD RA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "2171750001"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "connector_pwr_out_0_1"
+			(polyline
+				(pts
+					(xy 6.985 -16.51) (xy 6.985 -8.89)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+					(color 0 31 63 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 8.255 -16.51)
+				(end 9.525 -8.89)
+				(stroke
+					(width 0.254)
+					(type default)
+					(color 0 31 63 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(arc
+				(start 8.255 -8.89)
+				(mid 8.89 -8.2577)
+				(end 9.525 -8.89)
+				(stroke
+					(width 0.254)
+					(type default)
+					(color 0 31 63 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8.255 -8.89)
+				(mid 8.89 -8.2577)
+				(end 9.525 -8.89)
+				(stroke
+					(width 0.254)
+					(type default)
+					(color 0 31 63 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(arc
+				(start 6.985 -8.89)
+				(mid 8.89 -6.9933)
+				(end 10.795 -8.89)
+				(stroke
+					(width 0.508)
+					(type default)
+					(color 0 31 63 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 10.795 -16.51)
+				(mid 8.89 -18.4067)
+				(end 6.985 -16.51)
+				(stroke
+					(width 0.508)
+					(type default)
+					(color 0 31 63 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 9.525 -16.51)
+				(mid 8.89 -17.1423)
+				(end 8.255 -16.51)
+				(stroke
+					(width 0.254)
+					(type default)
+					(color 0 31 63 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 9.525 -16.51)
+				(mid 8.89 -17.1423)
+				(end 8.255 -16.51)
+				(stroke
+					(width 0.254)
+					(type default)
+					(color 0 31 63 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.795 -8.89) (xy 10.795 -16.51)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+					(color 0 31 63 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 13.335 -11.557)
+				(radius 0.635)
+				(stroke
+					(width 0.254)
+					(type default)
+					(color 0 31 63 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 14.605 -8.382) (xy 15.875 -5.842) (xy 17.145 -8.382) (xy 14.605 -8.382)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+					(color 0 31 63 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15.875 -14.732) (xy 18.415 -12.192) (xy 18.415 -10.922)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+					(color 0 31 63 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15.875 -16.002) (xy 13.335 -13.462) (xy 13.335 -12.192)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+					(color 0 31 63 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15.875 -18.542) (xy 15.875 -8.382)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+					(color 0 31 63 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 15.875 -18.542)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 31 63 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 17.78 -10.922)
+				(end 19.05 -9.652)
+				(stroke
+					(width 0.254)
+					(type default)
+					(color 0 31 63 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "connector_pwr_out_1_1"
+			(rectangle
+				(start 0 0)
+				(end 20.32 -25.4)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 31 63 1)
+				)
+				(fill
+					(type color)
+					(color 221 221 221 1)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "B12"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -6.35 0)
+				(length 2.54)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "B9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -10.16 0)
+				(length 2.54)
+				(name "CC1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "A5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -13.97 0)
+				(length 2.54)
+				(name "CC2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "B5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -17.78 0)
+				(length 2.54)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "A9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -21.59 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "A12"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 10.16 -27.94 90)
+				(length 2.54)
+				(name "SH"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)
