@@ -31,7 +31,7 @@ The MP2494 uses a **current-mode control architecture**:
 * Inductor Ripple Current: **38%**
 * Slew Rate of Transient: **1 A/µs**
 * Protection: **OCP, Thermal Shutdown**
-* Efficiency (measured): **~85.55%**
+* Efficiency (measured): **~85.75%**
 
 # MPS Design Tool Simulation
 ![Specifications](https://github.com/mustafaeminadak/MP2494-DC-DC-Converter/blob/main/Hardware/Project_MP2494/Images/MPS-DCDC-Designer-MP2494.png)
@@ -79,7 +79,7 @@ Additional Notes:
 
 ## 📌 Notes
 
-* Efficiency achieved: **~85.5%** (very good for this design).
+* Efficiency achieved: **~85.75%** (very good for this design).
 * Mounting hole GND connection is optional, depending on mechanical and EMI needs.
 * R7 is optional: if EN pin should be always active, tie directly to VIN.
 * Edge plating is not mandatory unless your design requires **high shielding or structural robustness**.
